@@ -251,7 +251,7 @@ body {
     display: flex;
     gap: 20px;
     width: 80%;
-    height: 200px;
+    height: 220px;
     background-color: rgba(255, 120, 120, 0.4);
     border-radius: 15px;
     backdrop-filter: blur(13px);
@@ -268,7 +268,8 @@ body {
 }
 
 .list.dark .item:hover {
-    background-color: #7d95ff99;
+    background-color: #7d95ff;
+    box-shadow: 0 0 25px #1f44e5;
 }
 
 .list img {
@@ -282,6 +283,7 @@ body {
 
 .item {
     padding: 15px;
+    margin: 15px;
     border-radius: 30px;
     font-size: 16px;
     transition: all 0.3s;
@@ -301,7 +303,8 @@ center {
 }
 
 .item:hover {
-    background-color: #ff430a99;
+    background-color: #ff430a;
+    box-shadow: 0 0 25px #ff0000;
     transform: scale(1.2);
 }
 
